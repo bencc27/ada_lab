@@ -1,0 +1,61 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvnnvnnnvnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U leer_entero%b		leer_entero.adb		4f8fb734 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W ada.text_io.integer_io%s
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20120703085636 3ffc8e18
+D a-except.ads		20120703085637 0c711ac9
+D a-finali.ads		20120703085635 e5e85fa4
+D a-filico.ads		20120703085635 872dc219
+D a-ioexce.ads		20120703085636 8b9de6cd
+D a-stream.ads		20120703085635 2ca4ee37
+D a-tags.ads		20120703085635 c7695348
+D a-textio.ads		20120703085634 386df5d4
+D a-tiinau.ads		20120703085637 8114c8e4
+D a-tiinio.ads		20120703085636 aa04e5d6
+D a-tiinio.adb		20120703085634 df9cd7af
+D a-unccon.ads		20120703085633 f9eb8f06
+D interfac.ads		20120703085635 f77d8799
+D i-cstrea.ads		20120703085635 1bd72c32
+D leer_entero.adb	20121009080628 0a5991fd
+D system.ads		20120703085637 23e1f70b
+D s-crtl.ads		20120703085637 ac77b159
+D s-exctab.ads		20120703085634 66e51330
+D s-ficobl.ads		20120703085633 443b9d66
+D s-finimp.ads		20120703085633 46853fe8
+D s-finroo.ads		20120703085634 dbb860c9
+D s-parame.ads		20120703085635 9c5d83fa
+D s-secsta.ads		20120703085633 eea35a36
+D s-soflin.ads		20120703085634 9414c974
+D s-stache.ads		20120703085637 596fc1b4
+D s-stalib.ads		20120703085633 c4241c00
+D s-stoele.ads		20120703085635 facd7d98
+D s-stoele.adb		20120703085634 afc5dc80
+D s-stratt.ads		20120703085634 aedef97e
+D s-traent.ads		20120703085633 5221ee41
+D s-unstyp.ads		20120703085634 6ae15c76
+D s-wchcon.ads		20120703085637 bfeb2e3d
+D text_io.ads		20120703085635 45d626c9
+X 8 a-textio.ads
+243U14*Put 15|6s12 8s12
+X 10 a-tiinio.ads
+45k21*Integer_IO 84e27 15|3r34
+55U14 Get 15|7s11[3]
+65U14 Put 15|9s11[3]
+X 15 leer_entero.adb
+2U11*Leer_Entero 2b11 10l5 10t16
+3K12 Int_IO[10|45] 7r4 9r4
+4i4 Numero{integer} 7m16 9r16
+X 33 text_io.ads
+24K9*Text_IO=24:29 15|1w6 3r26 6r4 8r4
+

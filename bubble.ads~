@@ -1,0 +1,27 @@
+generic
+   type T is private;
+
+   with function Less (X : T; Y : T) return Boolean;
+   --  Return true iff X is less than Y
+
+   with function Print (X : T) return String;
+   --  Return image of X
+
+package Bubble is
+
+   type T_Array is array (Integer range <>) of T;
+
+   procedure Sort (Arr : in out T_Array);
+   --  Sort elements of Arr
+
+   procedure Print_Array (Arr : T_Array);
+   --  Print elements of Arr
+
+end Bubble;
+
+package body Bubble is
+   procedure Sort (Arr : in out T_Array) is
+      begin
+      
+   end Sort;
+end Bubble;

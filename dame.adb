@@ -1,0 +1,11 @@
+with Text_IO;
+with Numerics;
+procedure Dame is
+   package Int_IO is new Text_IO.Float_IO (Float);
+   Radio : Float;
+begin
+   Text_IO.Put ("Dame un numero entero: ");
+   Int_IO.Get (Numero);
+   Text_IO.Put ("Escribiste el numero");
+   Int_IO.Put (Numero);
+end Dame;

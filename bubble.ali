@@ -1,0 +1,64 @@
+V "GNAT Lib v2012"
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U bubble%b		bubble.adb		04f4bea7 NE OO PK GE
+W text_io%s		text_io.ads		text_io.ali
+
+U bubble%s		bubble.ads		502bec26 BN EE NE OO PK GE
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-ioexce.ads		20120510125752 8b9de6cd
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-unccon.ads		20120510125800 f9eb8f06
+D bubble.ads		20121011093232 502bec26
+D bubble.adb		20121011093518 11097448
+D interfac.ads		20120510125814 129923ea
+D i-cstrea.ads		20120510125814 1bd72c32
+D system.ads		20120510125846 6daf90c4
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-wchcon.ads		20120510125840 bfeb2e3d
+D text_io.ads		20120510125846 45d626c9
+X 7 a-textio.ads
+263U14*Put_Line 10|26s18
+X 9 bubble.ads
+2+9 T 4r28 4r35 7r29 13r48 10|6r18
+4V18 Less{boolean} 4>24 4>31 10|12s16
+4*24 X{2+9}
+4*31 Y{2+9}
+7V18 Print{string} 7>25 10|26s28
+7*25 X{2+9}
+11k9*Bubble 2z9 4z18 7z18 21l5 21e11 10|2b14 30l5 30t11
+13A9*T_Array(2+9)<integer> 15r33 18r33 10|4r33 23r36
+15U14*Sort 15=20 10|4b14 21l8 21t12
+15a20 Arr{13A9} 10|4b20 11r19 12r22 12r30 13r25 14m16 14r26 15m16
+18U14*Print_Array 18>27 10|23b14 28l8 28t19
+18a27 Arr{13A9} 10|23b27 25r16 26r35
+X 10 bubble.adb
+5b10 switch{boolean} 10m10 16m16 19r20
+6*10 chang{9|2+9} 13m16 15r28
+11i14 j{integer} 12r26 12r34 13r29 14r20 14r30 15r20
+25i11 i{integer} 26r39
+X 30 text_io.ads
+24K9*Text_IO=24:29 10|1w6 26r10
+
